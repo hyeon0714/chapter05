@@ -8,10 +8,10 @@ import java.io.OutputStream;
 
 public class Ex01 {
 	
-	public static void main(String[] args) throws IOException {//IO 예외처리
+	public static void main(String[] args) throws IOException {//IO 예외처리->파일이 존재하지 않을수도 있으므로
 		
 		InputStream a =new FileInputStream("C:\\javaStudy\\프로그램\\file\\img.jpg");//파일위치가 필요하다
-		OutputStream b=new FileOutputStream("C:\\javaStudy\\프로그램\\file\\byteimg.jpg");
+		OutputStream b=new FileOutputStream("C:\\javaStudy\\프로그램\\file\\byteimg.jpg");//복사한 파일을 붙여놓을 장소, 복사할 이름
 		
 		
 		System.out.println("복사시작");
