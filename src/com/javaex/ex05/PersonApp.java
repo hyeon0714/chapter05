@@ -43,7 +43,7 @@ public class PersonApp {
 			bw.write(String.valueOf(pList.get(i)));
 			bw.newLine();
 		}
-		
+		br.close();
 		bw.close();
 	}
 }
